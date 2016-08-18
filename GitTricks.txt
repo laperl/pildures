@@ -1,0 +1,2 @@
+# permite ver todos los ficheros que se están ignorando en git por los .gitignore, así uno no se queda ciego buscando si ha ignorado algo bien o no
+git ls-files --others -i --exclude-standard
