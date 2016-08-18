@@ -1,1 +1,1 @@
-# pildures
+# pildures## systemd### Uso de systemd como redireccionador de tráficoArranque:```sudo systemctl start test.socket```Uso:```% curl localhost:123480.35.92.36```Para pararlo```sudo systemctl stop test.socketsudo systemctl stop test.service```Para activarlo:```sudo systemctl enable test.socketsudo systemctl enable test.service```
